@@ -11,10 +11,18 @@ const lazyLoadLanding = () => (
 );
 
 const AppRoutes = [
+	/* Note: This route is for development */
+	// {
+	// 	id: 1,
+	// 	name: 'Gamebox: Home',
+	// 	path: '/',
+	// 	element: lazyLoadLanding(),
+	// },
+	/* Note: This route is for production */
 	{
-		id: 1,
+		id: 2,
 		name: 'Gamebox: Home',
-		path: '/',
+		path: '/web-games',
 		element: lazyLoadLanding(),
 	},
 ];
