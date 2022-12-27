@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkweb_games=self.webpackChunkweb_games||[]).push([[241],{1241:function(e,a,s){s.r(a),s.d(a,{default:function(){return l}});var n=s(2791),c=s(7181),u=s(184);function l(){return(0,u.jsx)("div",{className:"p-page p-page--gamebox",children:(0,u.jsx)("div",{className:"o-gamebox",children:(0,u.jsx)(n.Suspense,{fallback:(0,u.jsx)(c.Z,{}),children:"Gamebox"})})})}}}]);
+//# sourceMappingURL=241.c5435e4c.chunk.js.map
