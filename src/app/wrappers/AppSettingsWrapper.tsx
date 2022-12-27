@@ -1,4 +1,4 @@
-import React, {
+import {
 	lazy,
 	Suspense,
 	useEffect,
@@ -12,12 +12,12 @@ import { getAllLayouts } from '../_redux/layout/operations';
 import { getLayoutsSelector } from '../_redux/layout/selectors';
 
 /* Services */
-import { syncLocalStorage } from '../services/ManageLocalStorage';
+import { syncLocalStorage } from '../services/ManageAppData';
 
 /* Components */
 import Spinner from '../components/Spinner';
 
-// Note: The redux-saga middleware will automatically synchronize and keep all of the browser's localStorage data up-to-date.
+// The redux-saga middleware will automatically synchronize and keep all of the browser's localStorage data up-to-date.
 export default function AppSettingsWrapper({ children }: any) {
 	const dispatch = useDispatch();
 
@@ -45,11 +45,7 @@ export default function AppSettingsWrapper({ children }: any) {
 		return () => {
 			effectCancelled = false;
 		};
-	}, [
-		dispatch,
-		themes,
-		layouts,
-	]);
+	}, [dispatch, themes, layouts]);
 
 	// Implement nested component-based code splitting.
 	// Nested suspense components aren't fetched in parallel, but are instead fetched sequentially.
