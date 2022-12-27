@@ -9,7 +9,7 @@ export default function App() {
 	const Router = lazy(() => import('./app/components/Router/Router'));
 	return (
 		<Suspense fallback={
-			<Spinner message={`Initializing...`} />
+			<Spinner message={`Initializing Web Games...`} />
 		}>
 			<AppSettingsWrapper>
 				<Router />
