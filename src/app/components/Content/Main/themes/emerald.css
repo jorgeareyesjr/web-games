@@ -1,0 +1,49 @@
+/*** Page Styles */
+.t-emerald .p-page__title {
+	background: var(--t-emerald-accent--darker);
+	color: var(--black);
+}
+
+.t-emerald .p-page__section .c-title::after {
+	background-color: var(--t-emerald-accent--darker);
+}
+
+.t-emerald progress[value]::-webkit-progress-bar {
+	background: var(--black)
+}
+
+.t-emerald progress[value]::-webkit-progress-value {
+	background-color: var(--t-emerald-accent--darker);
+}
+
+/* box-shadows: top */
+.t-emerald .l-top-push-menu .c-main-content section,
+.t-emerald .l-top-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top) var(--t-emerald__light),
+		var(--t-shadow--bottom) var(--t-emerald__shadow);
+}
+
+/* box-shadows: right */
+.t-emerald .l-right-push-menu .c-main-content section,
+.t-emerald .l-right-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-right) var(--t-emerald__light),
+		var(--t-shadow--bottom-left) var(--t-emerald__shadow);
+}
+
+/* box-shadows: bottom */
+.t-emerald .l-bottom-push-menu .c-main-content section,
+.t-emerald .l-bottom-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-emerald__light),
+		var(--t-shadow--top) var(--t-emerald__shadow);
+}
+
+/* box-shadows: left */
+.t-emerald .l-left-push-menu .c-main-content section,
+.t-emerald .l-left-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-left) var(--t-emerald__light),
+		var(--t-shadow--bottom-right) var(--t-emerald__shadow);
+}

@@ -1,0 +1,95 @@
+@import '../../../../styles/themes/all.css';
+
+.t-quartz .c-main-menu {
+	background: var(--t-quartz__base);
+}
+
+.t-quartz .c-main-menu a,
+.t-quartz .c-main-menu a:visited,
+.t-quartz .c-main-menu a:hover,
+.t-quartz .c-main-menu h1,
+.t-quartz .c-main-menu h2,
+.t-quartz .c-main-menu h3,
+.t-quartz .c-main-menu h4,
+.t-quartz .c-main-menu h5,
+.t-quartz .c-main-menu h6,
+.t-quartz .c-main-menu p {
+	color: var(--black);
+}
+
+.t-quartz .c-main-menu .c-menu {
+	background: var(--t-quartz__base);
+}
+
+/* Menus */
+.t-quartz .c-menu .c-list__listing {
+	background: var(--t-quartz__base--darker);
+}
+
+.t-quartz .c-menu .c-list__listing:hover {
+	background: var(--t-quartz-accent);
+	color: var(--white);
+}
+
+.t-quartz .c-menu .c-list__listing:hover a,
+.t-quartz .c-menu .c-list__listing:hover p {
+	color: var(--white);
+}
+
+.t-quartz .c-menu .c-list__listing.u--is-active {
+	background: var(--t-quartz__light--fill);
+	border: 1px solid var(--t-quartz-accent);
+}
+
+.t-quartz .c-menu .c-list__listing.u--is-active:hover {
+	background: var(--t-quartz-accent);
+	color: var(--white);
+}
+
+/* box-shadows: top */
+.t-quartz .l-top-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-quartz__shadow);
+}
+
+.t-quartz .l-top-push-menu .c-main-menu .c-menu,
+.t-quartz .l-top-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top) var(--t-quartz__light),
+		var(--t-shadow--bottom) var(--t-quartz__shadow);
+}
+
+/* box-shadows: right */
+.t-quartz .l-right-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-quartz__shadow);
+}
+
+.t-quartz .l-right-push-menu .c-main-menu .c-menu,
+.t-quartz .l-right-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top-right) var(--t-quartz__light),
+		var(--t-shadow--bottom-left) var(--t-quartz__shadow);
+}
+
+/* box-shadows: bottom */
+.t-quartz .l-bottom-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-quartz__shadow);
+}
+
+.t-quartz .l-bottom-push-menu .c-main-menu .c-menu,
+.t-quartz .l-bottom-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-quartz__light),
+		var(--t-shadow--top) var(--t-quartz__shadow);
+}
+
+/* box-shadows: left */
+.t-quartz .l-left-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--right) var(--t-quartz__shadow);
+}
+
+.t-quartz .l-left-push-menu .c-main-menu .c-menu,
+.t-quartz .l-left-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top-left) var(--t-quartz__light),
+		var(--t-shadow--bottom-right) var(--t-quartz__shadow);
+}

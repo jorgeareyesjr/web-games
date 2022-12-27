@@ -1,0 +1,7 @@
+.c-base-layout {
+	position: relative;
+	min-width: 100vw;
+	min-height: 100vh;
+	overflow-x: hidden;
+	transition: all 0.3s;
+}

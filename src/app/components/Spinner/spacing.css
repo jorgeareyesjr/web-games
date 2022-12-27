@@ -1,0 +1,26 @@
+/****** Compact Spacing Density ******/
+.l-spacing-density--compact .c-spinner {
+	padding: 10px;
+}
+
+.l-spacing-density--compact .c-spinner__animation {
+	margin: 10px auto;
+}
+
+/****** Default Spacing Density ******/
+.l-spacing-density--default .c-spinner {
+	padding: 15px;
+}
+
+.l-spacing-density--default .c-spinner__animation {
+	margin: 15px auto;
+}
+
+/****** Spacious Spacing Density ******/
+.l-spacing-density--spacious .c-spinner {
+	padding: 20px;
+}
+
+.l-spacing-density--spacious .c-spinner__animation {
+	margin: 20px auto;
+}

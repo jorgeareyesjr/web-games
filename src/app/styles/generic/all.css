@@ -1,0 +1,94 @@
+:focus {
+	outline: 0;
+}
+
+/* Sectioning root */
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+
+/* Text content */
+blockquote {
+	quotes: "" "";
+}
+
+blockquote:before,
+blockquote:after {
+	content: "";
+}
+
+li::marker {
+	content: '';
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+/* Inline text semantics */
+a,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+q {
+	quotes: "" "";
+}
+
+q:before,
+q:after {
+	content: "";
+}
+
+/* Table content */
+caption {
+	text-align: left;
+	font-weight: normal;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+td,
+th {
+	text-align: left;
+	font-weight: normal;
+}
+
+/* Forms */
+input {
+	appearance: none;
+}
+
+input[type=radio] {
+	padding: 0px;
+	width: 16px;
+	height: 16px;
+}
+
+input[type=radio] {
+	border-radius: 100%;
+}
+
+input[type="radio"]:after {
+	content: '';
+	position: relative;
+	display: block;
+	height: 100%;
+	border-radius: 25px;
+}
+
+/* Interactive Elements */
+summary::marker {
+	content: '';
+}

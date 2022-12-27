@@ -1,0 +1,47 @@
+.t-dark .c-header {
+	background: var(--t-dark__base);
+}
+
+/* button */
+.t-dark .c-header__button {
+	background: var(--t-dark__base);
+}
+
+.t-dark .c-header__button span {
+	background: var(--white);
+}
+
+/* button:hover */
+.t-dark .c-header__button:hover {
+	background: var(--white);
+}
+
+.t-dark .c-header__button:hover span {
+	background: var(--black);
+}
+
+/* button, open menu */
+.t-dark .l-menu--is-open .c-header__button {
+	background: var(--t-dark__base--lighter);
+}
+
+/* button:hover, open menu */
+.t-dark .l-menu--is-open .c-header__button:hover {
+	background: var(--white);
+}
+
+/* box-shadows: */
+/* Note, unlike the rest of the app styles, the header's box-shadows do not follow the expected pattern. */
+.t-dark .l-top-push-menu .c-header,
+.t-dark .l-right-push-menu .c-header,
+.t-dark .l-left-push-menu .c-header {
+	box-shadow:
+		var(--t-shine--top) var(--t-dark__light),
+		var(--t-shadow--bottom) var(--t-dark__shadow);
+}
+
+.t-dark .l-bottom-push-menu .c-header {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-dark__light),
+		var(--t-shadow--top) var(--t-dark__shadow);
+}

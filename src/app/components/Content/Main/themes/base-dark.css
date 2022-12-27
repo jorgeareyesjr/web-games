@@ -1,0 +1,51 @@
+/*** Page Styles */
+.t-dark .p-page__title {
+	background: var(--white);
+	color: var(--black);
+}
+
+.t-dark .p-page__section .c-title::after {
+	background-color: var(--white);
+}
+
+.t-dark progress[value]::-webkit-progress-bar {
+	background: var(--black)
+}
+
+.t-dark progress[value]::-webkit-progress-value {
+	background-color: var(--white);
+}
+
+/* box-shadows: top */
+.t-dark .l-top-push-menu .c-main-content section,
+.t-dark .l-top-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top) var(--t-dark__light),
+		var(--t-shadow--bottom) var(--t-dark__shadow);
+}
+
+/* box-shadows: right */
+.t-dark .l-right-push-menu .c-main-content section,
+.t-dark .l-right-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-right) var(--t-dark__light),
+		var(--t-shadow--bottom-left) var(--t-dark__shadow);
+}
+
+/* box-shadows: bottom */
+.t-dark .l-bottom-push-menu .c-main-content section,
+.t-dark .l-bottom-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-dark__light),
+		var(--t-shadow--top) var(--t-dark__shadow);
+}
+
+/* box-shadows: left */
+.t-dark .l-left-push-menu .c-main-content section,
+.t-dark .l-left-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-left) var(--t-dark__light),
+		var(--t-shadow--bottom-right) var(--t-dark__shadow);
+}
+
+

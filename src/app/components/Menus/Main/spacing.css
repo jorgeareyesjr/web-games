@@ -1,0 +1,65 @@
+/****** Default Spacing Density ******/
+.c-main-menu .c-menu,
+.c-main-menu .c-menu .c-list__listing {
+	border-radius: 15px;
+}
+
+.c-main-menu .c-list {
+	grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
+}
+
+@media (min-width: 300px) {
+	.c-main-menu>.c-list {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
+
+.c-main-menu,
+.c-main-menu .c-title,
+.c-menu {
+	padding: 15px;
+}
+
+.c-main-menu .c-menu .c-list__listing a,
+.c-main-menu .c-menu .c-list__listing p {
+	padding: 15px;
+}
+
+.c-main-menu .c-menu .c-list__listing span {
+	display: block;
+}
+
+.c-main-menu .c-list {
+	gap: 15px;
+}
+
+.c-menu .c-list {
+	gap: 15px;
+	padding: 15px;
+}
+
+/* Top Push Menu: Open */
+.l-top-push-menu.l-menu--is-open .c-main-menu {
+	max-height: calc(100% - 65px);
+	top: 65px;
+}
+
+/* Right Push Menu: Open */
+.l-right-push-menu.l-menu--is-open .c-main-menu {
+	max-height: calc(100% - 65px);
+	top: 65px;
+	right: 0;
+}
+
+/* Bottom Push Menu: Open */
+.l-bottom-push-menu.l-menu--is-open .c-main-menu {
+	max-height: calc(100% - 65px);
+	bottom: 65px;
+}
+
+/* Left Push Menu: Open */
+.l-left-push-menu.l-menu--is-open .c-main-menu {
+	max-height: calc(100% - 65px);
+	top: 65px;
+	left: 0;
+}

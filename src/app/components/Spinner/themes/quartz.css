@@ -1,0 +1,6 @@
+@import '../../../styles/themes/all.css';
+
+.t-quartz .c-spinner__animation::before {
+	border-color: var(--t-quartz__shadow--fill);
+	border-bottom-color: var(--t-quartz-accent);
+}

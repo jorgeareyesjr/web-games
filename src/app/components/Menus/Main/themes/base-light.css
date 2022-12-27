@@ -1,0 +1,95 @@
+@import '../../../../styles/themes/all.css';
+
+.t-light .c-main-menu {
+	background: var(--t-light__base);
+}
+
+.t-light .c-main-menu a,
+.t-light .c-main-menu a:visited,
+.t-light .c-main-menu a:hover,
+.t-light .c-main-menu h1,
+.t-light .c-main-menu h2,
+.t-light .c-main-menu h3,
+.t-light .c-main-menu h4,
+.t-light .c-main-menu h5,
+.t-light .c-main-menu h6,
+.t-light .c-main-menu p {
+	color: var(--black);
+}
+
+.t-light .c-main-menu .c-menu {
+	background: var(--t-light__base);
+}
+
+/* Menus */
+.t-light .c-menu .c-list__listing {
+	background: var(--t-light__base--darker);
+}
+
+.t-light .c-menu .c-list__listing:hover {
+	background: var(--black);
+	color: var(--white);
+}
+
+.t-light .c-menu .c-list__listing:hover a,
+.t-light .c-menu .c-list__listing:hover p {
+	color: var(--white);
+}
+
+.t-light .c-menu .c-list__listing.u--is-active {
+	background: var(--t-light__shadow--fill);
+	border: 1px solid var(--black);
+}
+
+.t-light .c-menu .c-list__listing.u--is-active:hover {
+	background: var(--black);
+	color: var(--white);
+}
+
+/* box-shadows: top */
+.t-light .l-top-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-light__shadow);
+}
+
+.t-light .l-top-push-menu .c-main-menu .c-menu,
+.t-light .l-top-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top) var(--t-light__light),
+		var(--t-shadow--bottom) var(--t-light__shadow);
+}
+
+/* box-shadows: right */
+.t-light .l-right-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-light__shadow);
+}
+
+.t-light .l-right-push-menu .c-main-menu .c-menu,
+.t-light .l-right-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top-right) var(--t-light__light),
+		var(--t-shadow--bottom-left) var(--t-light__shadow);
+}
+
+/* box-shadows: bottom */
+.t-light .l-bottom-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-light__shadow);
+}
+
+.t-light .l-bottom-push-menu .c-main-menu .c-menu,
+.t-light .l-bottom-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-light__light),
+		var(--t-shadow--top) var(--t-light__shadow);
+}
+
+/* box-shadows: left */
+.t-light .l-left-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--right) var(--t-light__shadow);
+}
+
+.t-light .l-left-push-menu .c-main-menu .c-menu,
+.t-light .l-left-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top-left) var(--t-light__light),
+		var(--t-shadow--bottom-right) var(--t-light__shadow);
+}

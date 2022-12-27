@@ -1,0 +1,54 @@
+.c-main-menu {
+	width: 100%;
+	text-align: center;
+}
+
+.c-main-menu .c-nav,
+.c-main-menu .c-menu {
+	height: 100%;
+	width: 100%;
+}
+
+.c-main-menu .c-list {
+	display: grid;
+	justify-content: center;
+}
+
+.c-main-menu .c-list__listing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Top Push Menu */
+.l-top-push-menu .c-main-menu {
+	max-height: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+/* Right Push Menu */
+.l-right-push-menu .c-main-menu {
+	width: fit-content;
+	height: calc(100%);
+	top: 0;
+	right: -200%;
+}
+
+/* Bottom Push Menu */
+.l-bottom-push-menu .c-main-menu {
+	max-height: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/* Left Push Menu */
+.l-left-push-menu .c-main-menu {
+	width: fit-content;
+	height: calc(100%);
+	top: 0;
+	left: -200%;
+	bottom: 0;
+}

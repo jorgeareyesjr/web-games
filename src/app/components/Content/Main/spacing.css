@@ -1,0 +1,62 @@
+/****** Default Spacing Density ******/
+.c-main-content {
+	padding: 15px;
+	margin-top: 65px;
+}
+
+.c-main-content section,
+.c-main-content section ul li,
+progress,
+progress[value]::-webkit-progress-bar,
+progress[value]::-webkit-progress-value {
+	border-radius: 15px;
+}
+
+.c-main-content section {
+	padding: 15px;
+	margin: 15px auto 25px;
+}
+
+.c-main-content section ul,
+.c-main-content section ul li {
+	gap: 15px;
+	padding: 15px;
+}
+
+.c-main-content section ul {
+	grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
+}
+
+@media (min-width: 300px) {
+	.c-main-content section ul {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
+
+
+/*** Page Styles ***/
+.p-page h1,
+.p-page h2,
+.p-page h3,
+.p-page h4,
+.p-page h5,
+.p-page h6,
+.p-page p {
+	margin: 15px auto;
+}
+
+.p-page__title {
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.p-page__section .c-title::after {
+	top: 110%;
+}
+
+/*** Bottom Push Menu ***/
+.l-bottom-push-menu.c-main-content {
+	padding: 15px;
+	margin-top: 0px;
+	margin-bottom: 65px;
+}

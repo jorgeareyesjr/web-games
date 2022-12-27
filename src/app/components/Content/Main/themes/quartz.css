@@ -1,0 +1,49 @@
+/*** Page Styles */
+.t-quartz .p-page__title {
+	background: var(--t-quartz-accent);
+	color: var(--white);
+}
+
+.t-quartz .p-page__section .c-title::after {
+	background-color: var(--t-quartz-accent);
+}
+
+.t-quartz progress[value]::-webkit-progress-bar {
+	background: var(--t-quartz__shadow--fill)
+}
+
+.t-quartz progress[value]::-webkit-progress-value {
+	background-color: var(--t-quartz-accent);
+}
+
+/* box-shadows: top */
+.t-quartz .l-top-push-menu .c-main-content section,
+.t-quartz .l-top-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top) var(--t-quartz__light),
+		var(--t-shadow--bottom) var(--t-quartz__shadow);
+}
+
+/* box-shadows: right */
+.t-quartz .l-right-push-menu .c-main-content section,
+.t-quartz .l-right-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-right) var(--t-quartz__light),
+		var(--t-shadow--bottom-left) var(--t-quartz__shadow);
+}
+
+/* box-shadows: bottom */
+.t-quartz .l-bottom-push-menu .c-main-content section,
+.t-quartz .l-bottom-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-quartz__light),
+		var(--t-shadow--top) var(--t-quartz__shadow);
+}
+
+/* box-shadows: left */
+.t-quartz .l-left-push-menu .c-main-content section,
+.t-quartz .l-left-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-left) var(--t-quartz__light),
+		var(--t-shadow--bottom-right) var(--t-quartz__shadow);
+}

@@ -1,0 +1,49 @@
+/*** Page Styles */
+.t-light .p-page__title {
+	background: var(--black);
+	color: var(--white);
+}
+
+.t-light .p-page__section .c-title::after {
+	background-color: var(--black);
+}
+
+.t-light progress[value]::-webkit-progress-bar {
+	background: var(--t-light__shadow--fill)
+}
+
+.t-light progress[value]::-webkit-progress-value {
+	background-color: var(--black);
+}
+
+/* box-shadows: top */
+.t-light .l-top-push-menu .c-main-content section,
+.t-light .l-top-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top) var(--t-light__light),
+		var(--t-shadow--bottom) var(--t-light__shadow);
+}
+
+/* box-shadows: right */
+.t-light .l-right-push-menu .c-main-content section,
+.t-light .l-right-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-right) var(--t-light__light),
+		var(--t-shadow--bottom-left) var(--t-light__shadow);
+}
+
+/* box-shadows: bottom */
+.t-light .l-bottom-push-menu .c-main-content section,
+.t-light .l-bottom-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-light__light),
+		var(--t-shadow--top) var(--t-light__shadow);
+}
+
+/* box-shadows: left */
+.t-light .l-left-push-menu .c-main-content section,
+.t-light .l-left-push-menu .c-main-content section ul li {
+	box-shadow:
+		var(--t-shine--top-left) var(--t-light__light),
+		var(--t-shadow--bottom-right) var(--t-light__shadow);
+}

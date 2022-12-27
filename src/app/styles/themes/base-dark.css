@@ -1,0 +1,51 @@
+@import './base.css';
+
+:root {
+	--t-dark__base: #17181c;
+	--t-dark__base--lighter: #1e1f24;
+
+	/* Box shadows */
+	--t-dark__light: rgba(255, 255, 255, 0.0625);
+	--t-dark__light--fill: #3a3c45;
+	--t-dark__shadow: rgba(0, 0, 0, 0.75);
+	--t-dark__shadow--fill: #111215;
+
+	/* Fonts */
+	--t-dark__base-font--light: #bbbbbb;
+}
+
+.t-dark {
+	background: var(--t-dark__base);
+}
+
+/****** Fonts ******/
+.t-dark a,
+.t-dark a:visited,
+.t-dark a:hover {
+	color: var(--white);
+}
+
+.t-dark h1,
+.t-dark h2,
+.t-dark h3,
+.t-dark h4,
+.t-dark h5,
+.t-dark h6,
+.t-dark p {
+	color: var(--t-dark__base-font--light);
+}
+
+/****** inputs ******/
+.t-dark input {
+	border: 1px solid var(--white);
+}
+
+.t-dark input[type="radio"]:checked:after {
+	background: var(--white);
+}
+
+/****** Decorators ******/
+.t-dark .t-decorator--word {
+	font-weight: 600;
+	color: var(--white) !important;
+}

@@ -1,0 +1,49 @@
+@import '../../../styles/themes/all.css';
+
+.t-emerald .c-header {
+	background: var(--t-emerald__base);
+}
+
+/* button */
+.t-emerald .c-header__button {
+	background: var(--t-emerald__base);
+}
+
+.t-emerald .c-header__button span {
+	background: var(--t-emerald-accent--darker);
+}
+
+/* button:hover */
+.t-emerald .c-header__button:hover {
+	background: var(--t-emerald-accent--darker);
+}
+
+.t-emerald .c-header__button:hover span {
+	background: var(--black);
+}
+
+/* button, open menu */
+.t-emerald .l-menu--is-open .c-header__button {
+	background: var(--t-emerald__base--lighter);
+}
+
+/* button:hover, open menu */
+.t-emerald .l-menu--is-open .c-header__button:hover {
+	background: var(--t-emerald-accent--darker);
+}
+
+/* box-shadows: */
+/* Note, unlike the rest of the app styles, the header's box-shadows do not follow the expected pattern. */
+.t-emerald .l-top-push-menu .c-header,
+.t-emerald .l-right-push-menu .c-header,
+.t-emerald .l-left-push-menu .c-header {
+	box-shadow:
+		var(--t-shine--top) var(--t-emerald__light),
+		var(--t-shadow--bottom) var(--t-emerald__shadow);
+}
+
+.t-emerald .l-bottom-push-menu .c-header {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-emerald__light),
+		var(--t-shadow--top) var(--t-emerald__shadow);
+}

@@ -1,0 +1,32 @@
+/****** Font Styles ******/
+
+/* Content sectioning */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* font-family: 'Orbitron', sans-serif; */
+	font-family: sans-serif;
+}
+
+/* Text content */
+p {
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: sans-serif;
+}
+
+/* Inline text semantics */
+a,
+strong {
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: sans-serif;
+}
+
+/* Forms */
+button,
+label {
+	/* font-family: 'Orbitron', sans-serif; */
+	font-family: sans-serif;
+}

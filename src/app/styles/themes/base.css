@@ -1,0 +1,22 @@
+:root {
+	--black: #000;
+	--white: #fff;
+
+	/* Shines */
+	--t-shine--top: 0px -5px 10px 0;
+	--t-shine--top-right: 5px -5px 10px 0;
+	--t-shine--top-left: -5px -5px 10px 0;
+	--t-shine--bottom: 0px 5px 10px 0;
+	--t-shine--bottom-right: 5px 5px 10px 0;
+	--t-shine--bottom-left: -5px 5px 10px 0;
+
+	/* Shadows */
+	--t-shadow--top: 0px -5px 10px 0;
+	--t-shadow--top-right: 5px -5px 10px 0;
+	--t-shadow--top-left: -5px -5px 10px 0;
+	--t-shadow--right: 5px 0px 10px 0;
+	--t-shadow--bottom: 0px 5px 10px 0;
+	--t-shadow--bottom-right: 5px 5px 10px 0;
+	--t-shadow--bottom-left: -5px 5px 10px 0;
+	--t-shadow--left: -5px 0px 10px 0;
+}

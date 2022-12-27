@@ -1,0 +1,25 @@
+.c-main-content section ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	justify-content: center;
+}
+
+/* Top Push Menu: Open */
+.l-top-push-menu.l-menu--is-open .c-main-content {
+	transform: translateY(var(--Y));
+}
+
+/* Right Push Menu: Open */
+.l-right-push-menu.l-menu--is-open .c-main-content  {
+	transform: translateX(calc(-1 * var(--X)));
+}
+
+/* Bottom Push Menu */
+.l-bottom-push-menu.l-menu--is-open .c-main-content {
+	transform: translateY(calc(-1 * var(--Y)));
+}
+
+/* Left Push Menu */
+.l-left-push-menu.l-menu--is-open .c-main-content {
+	transform: translateX(var(--X));
+}

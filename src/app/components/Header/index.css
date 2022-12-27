@@ -1,0 +1,43 @@
+@import './layouts.css';
+@import './size.css';
+@import './spacing.css';
+@import './themes/all.css';
+
+.c-header {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.c-header__button {
+	border: 0;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.c-header__button span {
+	display: block;
+	height: 2px;
+	margin: 0 auto;
+	border-radius: 1px;
+	transition: all 0.3s;
+}
+
+/* Open Push Menu */
+.l-menu--is-open .c-header__button span {
+	margin-top: 0;
+	transform: rotate(45deg);
+}
+
+.l-menu--is-open .c-header__button span:nth-child(2) {
+	opacity: 0;
+}
+
+.l-menu--is-open .c-header__button span:nth-child(3) {
+	transform: rotate(-45deg);
+}
+
+.l-menu--is-open .c-header__button span:nth-child(2),
+.l-menu--is-open .c-header__button span:nth-child(3) {
+	margin-top: -2px;
+}

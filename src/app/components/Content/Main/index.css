@@ -1,0 +1,125 @@
+@import './layouts.css';
+@import './size.css';
+@import './spacing.css';
+@import './themes/all.css';
+
+.c-main-content {
+	position: relative;
+	transform: translate(0px, 0px);
+	transition: all 0.3s;
+}
+
+.c-main-content section {
+	position: relative;
+	transition: all 0.3s;
+}
+
+.c-main-content__overlay {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0);
+	z-index: 1000;
+	transition: background-color 0.3s;
+}
+
+.l-menu--is-open .c-main-content__overlay {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Page Styles */
+.p-page {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p-page a,
+.p-page a:visited,
+.p-page a:hover {
+	text-decoration: underline;
+}
+
+.p-page button {
+	cursor: pointer;
+}
+
+.p-page .c-link {
+	font-weight: 600;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Title */
+.p-page .p-page__section .p-page__title {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.p-page .p-page__section .p-page__title::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;
+	top: 0;
+	left: 0px;
+	bottom: 0px;
+}
+
+.p-page .p-page__title span {
+	position: relative;
+}
+
+.p-page .p-page__section .c-title {
+	position: relative;
+	width: fit-content;
+	margin: 0;
+}
+
+.p-page .p-page__section .c-title::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transition: all 0.3s;
+}
+
+@media screen and (min-width: 300px) {
+	.p-page .p-page__section .p-page__title {
+		width: fit-content;
+	}
+}
+
+/*** Primary skills list ***/
+progress {
+	width: 100%;
+	border-radius: 0;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value]::-webkit-progress-value {
+	border-radius: 0;
+}
+
+.c-list--primary-skills li {
+	position: relative;
+	height: fit-content;
+	transition: all 0.3s;
+}
+
+
+/*** Experience list ***/
+.c-list--experience-cards li {
+	position: relative;
+	height: fit-content;
+	transition: all 0.3s;
+}

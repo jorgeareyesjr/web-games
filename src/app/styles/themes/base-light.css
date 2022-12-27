@@ -1,0 +1,51 @@
+@import './base.css';
+
+:root {
+	--t-light__base: #f0f1f7;
+	--t-light__base--darker: #d4d4de;
+
+	/* Box shadows */
+	--t-light__light: rgba(255, 255, 255, 0.75);
+	--t-light__light--fill: #fafbfd;
+	--t-light__shadow: rgba(0, 0, 0, 0.125);
+	--t-light__shadow--fill: #aeb1b7;
+
+	/* Fonts */
+	--t-light__base-font--shadow: #323234;
+}
+
+.t-light {
+	background: var(--t-light__base);
+}
+
+/****** Fonts ******/
+.t-light a,
+.t-light a:visited,
+.t-light a:hover {
+	color: var(--black);
+}
+
+.t-light h1,
+.t-light h2,
+.t-light h3,
+.t-light h4,
+.t-light h5,
+.t-light h6,
+.t-light p {
+	color: var(--t-light__base-font--shadow);
+}
+
+/****** inputs ******/
+.t-light input {
+	border: 1px solid var(--black);
+}
+
+.t-light input[type="radio"]:checked:after {
+	background: var(--black);
+}
+
+/****** Decorators ******/
+.t-light .t-decorator--word {
+	font-weight: 600;
+	color: var(--black) !important;
+}

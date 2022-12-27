@@ -1,0 +1,9 @@
+/****** Default Font Size ******/
+.p-page__section .c-title::after {
+	height: 3px;
+}
+
+.p-page__title {
+	font-size: 28px;
+	line-height: 42px;
+}

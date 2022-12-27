@@ -1,0 +1,6 @@
+@import '../../../styles/themes/all.css';
+
+.t-emerald .c-spinner__animation::before {
+	border-color: var(--t-emerald__light--fill);
+	border-bottom-color: var(--t-emerald-accent--darker);
+}

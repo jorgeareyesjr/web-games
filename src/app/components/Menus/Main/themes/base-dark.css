@@ -1,0 +1,95 @@
+@import '../../../../styles/themes/all.css';
+
+.t-dark .c-main-menu {
+	background: var(--t-dark__base);
+}
+
+.t-dark .c-main-menu a,
+.t-dark .c-main-menu a:visited,
+.t-dark .c-main-menu a:hover,
+.t-dark .c-main-menu h1,
+.t-dark .c-main-menu h2,
+.t-dark .c-main-menu h3,
+.t-dark .c-main-menu h4,
+.t-dark .c-main-menu h5,
+.t-dark .c-main-menu h6,
+.t-dark .c-main-menu p {
+	color: var(--white);
+}
+
+.t-dark .c-main-menu .c-menu {
+	background: var(--t-dark__base);
+}
+
+/* Menus */
+.t-dark .c-menu .c-list__listing {
+	background: var(--t-dark__base--lighter);
+}
+
+.t-dark .c-menu .c-list__listing:hover {
+	background: var(--white);
+	color: var(--black);
+}
+
+.t-dark .c-menu .c-list__listing:hover a,
+.t-dark .c-menu .c-list__listing:hover p {
+	color: var(--black);
+}
+
+.t-dark .c-menu .c-list__listing.u--is-active {
+	background: var(--t-dark__light--fill);
+	border: 1px solid var(--white);
+}
+
+.t-dark .c-menu .c-list__listing.u--is-active:hover {
+	background: var(--white);
+	color: var(--black);
+}
+
+/* box-shadows: top */
+.t-dark .l-top-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-dark__shadow);
+}
+
+.t-dark .l-top-push-menu .c-main-menu .c-menu,
+.t-dark .l-top-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top) var(--t-dark__light),
+		var(--t-shadow--bottom) var(--t-dark__shadow);
+}
+
+/* box-shadows: right */
+.t-dark .l-right-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-dark__shadow);
+}
+
+.t-dark .l-right-push-menu .c-main-menu .c-menu,
+.t-dark .l-right-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top-right) var(--t-dark__light),
+		var(--t-shadow--bottom-left) var(--t-dark__shadow);
+}
+
+/* box-shadows: bottom */
+.t-dark .l-bottom-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--bottom) var(--t-dark__shadow);
+}
+
+.t-dark .l-bottom-push-menu .c-main-menu .c-menu,
+.t-dark .l-bottom-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-dark__light),
+		var(--t-shadow--top) var(--t-dark__shadow);
+}
+
+/* box-shadows: left */
+.t-dark .l-left-push-menu .c-main-menu {
+	box-shadow: var(--t-shadow--right) var(--t-dark__shadow);
+}
+
+.t-dark .l-left-push-menu .c-main-menu .c-menu,
+.t-dark .l-left-push-menu .c-main-menu .c-menu .c-list__listing {
+	box-shadow:
+		var(--t-shine--top-left) var(--t-dark__light),
+		var(--t-shadow--bottom-right) var(--t-dark__shadow);
+}

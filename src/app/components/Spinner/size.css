@@ -1,0 +1,31 @@
+/****** Small Font Size ******/
+.l-font-size--small .c-spinner__animation {
+	height: 30px;
+	width: 30px;
+}
+.l-font-size--small .c-spinner__animation::before {
+	height: 30px;
+	width: 30px;
+}
+
+/****** Default Font Size ******/
+.l-font-size--default .c-spinner__animation {
+	height: 40px;
+	width: 40px;
+}
+
+.l-font-size--default .c-spinner__animation::before {
+	height: 40px;
+	width: 40px;
+}
+
+/****** Large Font Size ******/
+.l-font-size--large .c-spinner__animation {
+	height: 50px;
+	width: 50px;
+}
+
+.l-font-size--large .c-spinner__animation::before {
+	height: 50px;
+	width: 50px;
+}

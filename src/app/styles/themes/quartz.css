@@ -1,0 +1,56 @@
+@import './base.css';
+
+:root {
+	--t-quartz__base: #f0f1f7;
+	--t-quartz__base--darker: #d4d4de;
+
+	/* Box shadows */
+	--t-quartz__light: rgba(255, 255, 255, 0.75);
+	--t-quartz__light--fill: #fafbfd;
+	--t-quartz__shadow: rgba(0, 0, 0, 0.125);
+	--t-quartz__shadow--fill: #aeb1b7;
+
+	/* Fonts */
+	--t-quartz__base-font--shadow: #323234;
+
+	/* Accents */
+	--t-quartz-accent: #741ea5;
+	--t-quartz-accent--lighter: #7700bb;
+	--t-quartz-accent--darker: #570188;
+}
+
+.t-quartz {
+	background: var(--t-quartz__base);
+}
+
+/****** Fonts ******/
+.t-quartz a,
+.t-quartz a:visited,
+.t-quartz a:hover {
+	color: var(--black);
+}
+
+.t-quartz h1,
+.t-quartz h2,
+.t-quartz h3,
+.t-quartz h4,
+.t-quartz h5,
+.t-quartz h6,
+.t-quartz p {
+	color: var(--t-quartz__base-font--shadow);
+}
+
+/****** inputs ******/
+.t-quartz input {
+	border: 1px solid var(--black);
+}
+
+.t-quartz input[type="radio"]:checked:after {
+	background: var(--black);
+}
+
+/****** Decorators ******/
+.t-quartz .t-decorator--word {
+	font-weight: 600;
+	color: var(--t-quartz-accent) !important;
+}

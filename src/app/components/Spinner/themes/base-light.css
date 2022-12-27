@@ -1,0 +1,6 @@
+@import '../../../styles/themes/all.css';
+
+.t-light .c-spinner__animation::before {
+	border-color: var(--t-light__shadow--fill);
+	border-bottom-color: var(--black);
+}

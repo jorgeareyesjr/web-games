@@ -1,0 +1,77 @@
+/****** Font Size Styles: Smaller ******/
+/* Content sectioning */
+.l-font-size--small h1,
+.l-font-size--small h2,
+.l-font-size--small h3,
+.l-font-size--small h4,
+.l-font-size--small h5,
+.l-font-size--small h6 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/* Text content */
+.l-font-size--small p,
+
+/* Inline text semantics */
+.l-font-size--small a,
+.l-font-size--small strong,
+
+/* Forms */
+.l-font-size--small button,
+.l-font-size--small label {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/****** Font Size Styles: Default ******/
+/* Content sectioning */
+.l-font-size--default h1,
+.l-font-size--default h2,
+.l-font-size--default h3,
+.l-font-size--default h4,
+.l-font-size--default h5,
+.l-font-size--default h6 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* Text content */
+.l-font-size--default p,
+
+/* Inline text semantics */
+.l-font-size--default a,
+.l-font-size--default strong,
+
+/* Forms */
+.l-font-size--default button,
+.l-font-size--default label {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/****** Font Size Styles: Larger ******/
+/* Content sectioning */
+.l-font-size--large h1,
+.l-font-size--large h2,
+.l-font-size--large h3,
+.l-font-size--large h4,
+.l-font-size--large h5,
+.l-font-size--large h6 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+/* Text content */
+.l-font-size--large p,
+
+/* Inline text semantics */
+.l-font-size--large a,
+.l-font-size--large strong,
+
+/* Forms */
+.l-font-size--large button,
+.l-font-size--large label {
+	font-size: 16px;
+	line-height: 24px;
+}

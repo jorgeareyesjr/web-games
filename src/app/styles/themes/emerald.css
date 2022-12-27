@@ -1,0 +1,56 @@
+@import './base.css';
+
+:root {
+	--t-emerald__base: #17181c;
+	--t-emerald__base--lighter: #1e1f24;
+
+	/* Box shadows */
+	--t-emerald__light: rgba(255, 255, 255, 0.0625);
+	--t-emerald__light--fill: #3a3c45;
+	--t-emerald__shadow: rgba(0, 0, 0, 0.75);
+	--t-emerald__shadow--fill: #111215;
+
+	/* Fonts */
+	--t-emerald__base-font--light: #bbbbbb;
+
+	/* Accents */
+	--t-emerald-accent: #58DE79;
+	--t-emerald-accent--lighter: #00ff66;
+	--t-emerald-accent--darker: #02be4d;
+}
+
+.t-emerald {
+	background: var(--t-emerald__base);
+}
+
+/****** Fonts ******/
+.t-emerald a,
+.t-emerald a:visited,
+.t-emerald a:hover {
+	color: var(--white);
+}
+
+.t-emerald h1,
+.t-emerald h2,
+.t-emerald h3,
+.t-emerald h4,
+.t-emerald h5,
+.t-emerald h6,
+.t-emerald p {
+	color: var(--t-emerald__base-font--light);
+}
+
+/****** inputs ******/
+.t-emerald input {
+	border: 1px solid var(--white);
+}
+
+.t-emerald input[type="radio"]:checked:after {
+	background: var(--white);
+}
+
+/****** Decorators ******/
+.t-emerald .t-decorator--word {
+	font-weight: 600;
+	color: var(--t-emerald-accent--darker) !important;
+}

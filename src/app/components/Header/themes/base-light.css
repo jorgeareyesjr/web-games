@@ -1,0 +1,47 @@
+.t-light .c-header {
+	background: var(--t-light__base);
+}
+
+/* button */
+.t-light .c-header__button {
+	background: var(--t-light__base);
+}
+
+.t-light .c-header__button span {
+	background: var(--black);
+}
+
+/* button:hover */
+.t-light .c-header__button:hover {
+	background: var(--black);
+}
+
+.t-light .c-header__button:hover span {
+	background: var(--white);
+}
+
+/* button, open menu */
+.t-light .l-menu--is-open .c-header__button {
+	background: var(--t-light__base--darker);
+}
+
+/* button:hover, open menu */
+.t-light .l-menu--is-open .c-header__button:hover {
+	background: var(--black);
+}
+
+/* box-shadows: */
+/* Note, unlike the rest of the app's box-shadow styles, the header's box-shadows does not follow the conventional pattern. */
+.t-light .l-top-push-menu .c-header,
+.t-light .l-right-push-menu .c-header,
+.t-light .l-left-push-menu .c-header {
+	box-shadow:
+		var(--t-shine--top) var(--t-light__light),
+		var(--t-shadow--bottom) var(--t-light__shadow);
+}
+
+.t-light .l-bottom-push-menu .c-header {
+	box-shadow:
+		var(--t-shine--bottom) var(--t-light__light),
+		var(--t-shadow--top) var(--t-light__shadow);
+}

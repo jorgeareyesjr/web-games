@@ -1,0 +1,36 @@
+@import './layouts.css';
+@import './spacing.css';
+@import './themes/all.css';
+
+/* Main Menu */
+.c-main-menu {
+	position: fixed;
+	height: auto;
+	overflow: hidden;
+	opacity: 0;
+	z-index: 999;
+	transition:
+		all 0.3s,
+		opacity 0s;
+}
+
+.c-main-menu .c-link {
+	display: block;
+}
+
+.l-menu--is-open .c-main-menu {
+	overflow: scroll;
+	opacity: 1;
+	transition:
+		all 0.3s,
+		opacity 0.3s;
+}
+
+/* Menus */
+.c-main-menu .c-menu {
+	overflow: scroll;
+}
+
+.c-main-menu .c-menu .c-list__listing {
+	transition: all 0.3s;
+}

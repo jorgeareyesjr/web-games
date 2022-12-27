@@ -1,0 +1,53 @@
+@import './size.css';
+@import './spacing.css';
+@import './themes/all.css';
+
+.c-spinner {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	/* Default styles, in case a spinner is needed before a theme is loaded. */
+	padding: 15px;
+}
+
+.c-spinner__animation {
+	position: relative;
+	/* Default styles, in case a spinner is needed before a theme is loaded. */
+	width: 40px;
+	height: 40px;
+	margin: 25px auto;
+}
+
+.c-spinner__animation::before {
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	border: solid 5px;
+	border-radius: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	animation: 1.5s linear infinite spinAnimation;
+	/* Default styles, in case a spinner is needed before a theme is loaded. */
+	width: 40px;
+	height: 40px;
+	border-color: grey;
+	border-bottom-color: black;
+}
+
+.c-spinner__message {
+	text-align: center;
+	/* Default styles, in case a spinner is needed before a theme is loaded. */
+	margin-top: 0;
+}
+
+@keyframes spinAnimation {
+	0% {
+		transform: translate3d(-50%, -50%, 0) rotate(0deg);
+	}
+
+	100% {
+		transform: translate3d(-50%, -50%, 0) rotate(360deg);
+	}
+}
